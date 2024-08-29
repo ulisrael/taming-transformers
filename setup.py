@@ -47,6 +47,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'torch'
+        'pytorch-lightning',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
