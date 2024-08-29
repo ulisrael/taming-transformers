@@ -48,6 +48,9 @@ setup(
     install_requires=[
         'torch',
         'pytorch-lightning',
+        'einops',
+        'Pillow',
+        'omegaconf',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
