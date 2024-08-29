@@ -51,6 +51,7 @@ setup(
         'einops',
         'Pillow',
         'omegaconf',
+        'torchvision',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
