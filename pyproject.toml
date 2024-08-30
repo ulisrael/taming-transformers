@@ -18,7 +18,6 @@ homepage = "https://github.com/ulisrael/taming-transformers"
 [project.urls]
 Homepage = "https://github.com/ulisrael/taming-transformers"
 
-[project.dependencies]
 dependencies = [
     "torch",
     "pytorch-lightning",
