@@ -29,5 +29,5 @@ classifiers = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["taming", "taming.*"]  # Replace "taming" with the name of the actual package directory
+include = ["taming", "taming.*"]
 exclude = ["data", "assets", "configs"]
