@@ -26,7 +26,9 @@ Pillow = "*"
 omegaconf = "*"
 torchvision = "*"
 
-[project.classifiers]
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
