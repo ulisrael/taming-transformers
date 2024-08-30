@@ -19,15 +19,14 @@ homepage = "https://github.com/ulisrael/taming-transformers"
 Homepage = "https://github.com/ulisrael/taming-transformers"
 
 [project.dependencies]
-torch = "*"
-pytorch-lightning = "*"
-einops = "*"
-Pillow = "*"
-omegaconf = "*"
-torchvision = "*"
-
-[project.optional-dependencies]
-test = ["pytest", "pytest-cov"]
+dependencies = [
+    "torch",
+    "pytorch-lightning",
+    "einops",
+    "Pillow",
+    "omegaconf",
+    "torchvision",
+]
 
 classifiers = [
     "Programming Language :: Python :: 3",
